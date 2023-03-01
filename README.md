@@ -10,9 +10,13 @@
 - Performed Univariate(Skewness, Kurtosis plots) and Bivariarate analysis to understand the data distribution and how the features are contributing to the customer churn.
 - Pre-processed the data using methods like label encoding, one hot encoding, handling null values, dropping irrelevant columns.
 - Visualising correlation matrix to understand which features are higly correlated. Below are the observations.
+
+            
             - Internet service, Online security, Online Backup, DeviceProtection, Tech Support and streaming are highly correlated features.
             - Total charges and customer ID are also very correlated, maybe the ID is chosen according to high-potential customers.
             - The most correlated to churn : Senior, Partner, Multiple lines, online backup, Monthly charges.
+            
+            
 - Trained machine learning algorithms like : Logistic Regression, Decision Trees, Support Vector Machines and achieved 84% accuracy with Logistic Regression model.
 
 ## Technical :
